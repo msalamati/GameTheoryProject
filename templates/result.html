@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+
+	<title>مسئله سربازی</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Styles -->
+	<link type="text/css" href="../static/css/bootstrap-rtl.min.css" rel="stylesheet" />
+	<link type="text/css" href="../static/css/font-awesome.min.css" rel="stylesheet" />
+	<link type="text/css" href="../static/css/animate.css" rel="stylesheet" />
+	<link type="text/css" href="../static/css/hamburgers.min.css" rel="stylesheet" />
+	<link type="text/css" href="../static/css/select2.min.css" rel="stylesheet" />
+	<link type="text/css" href="../static/css/util.css" rel="stylesheet" />
+	<link type="text/css" href="../static/css/style.css" rel="stylesheet" />
+	<!-- / styles -->
+</head>
+
+<body>
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+
+			<!-- input form -->
+			<div class="login100-form validate-form" action="http://127.0.0.1:5000/solve/01" method="post">
+				<span class="login100-form-title">تعادل مسئله سربازی</span>
+
+				<div class="wrap-input100 validate-input" data-validate = "لطفا این مقدار را وارد کنید!">
+					{{ result }}
+				</div>
+
+			</div>
+			<!-- / input form -->
+
+			<!-- form image -->
+			<div class="login100-pic js-tilt" data-tilt>
+				<img src="../static/pics/img-01.png" alt="IMG">
+			</div>
+			<!-- / form image -->
+
+			</div>
+		</div>
+	</div>
+
+
+	<!-- scripts -->
+	<script src="../static/js/jquery-3.2.1.min.js"></script>
+	<script src="../static/js/popper.min.js"></script>
+	<script src="../static/js/bootstrap.min.js"></script>
+	<script src="../static/js/select2.min.js"></script>
+	<script src="../static/js/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+	<script src="../static/js/scripts.js"></script>
+	<!-- / scripts -->
+</body>
+</html>
+<!-- This template has been downloaded from Webrubik.com -->
