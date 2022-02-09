@@ -11,8 +11,11 @@ def solve():
     soldier_income = float(request.form.get("soldier_income"))
     normal_income = float(request.form.get("normal_income"))
     num_of_soldiers = float(request.form.get("num_of_soldiers"))
+    unemployment_rate = float(request.form.get("unemployment_rate"))
+    military_service_payoff = float(request.form.get("military_service_payoff"))
+    apply_cost = float(request.form.get("apply_cost"))
 
-    file = open("static/files/01.efg")
+    file = open("static/games/01.efg")
 
     game_rep = file.read().format(
         - num_of_months * soldier_income * num_of_soldiers,
